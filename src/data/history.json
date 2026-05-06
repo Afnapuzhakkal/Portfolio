@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Frontend Development ",
+    "company": "upcode labs",
+    "role":"intern",
+    "duration": "2025 - Present",
+    "description": "Building responsive web applications using HTML, CSS, JavaScript, and React. Focused on UI design and component-based architecture.",
+    "imgsrc":"https://upcode.in/favicon.ico"
+  },
+  {
+    "title": "MERN Stack Development (Learning)",
+    "company": "upcode Labs",
+    "role":"internship",
+     "duration": "2025 - Present",
+    "description": "Learning backend development using Node.js, Express.js, and MongoDB. Working on REST APIs and full-stack projects.",
+     "imgsrc":"https://upcode.in/favicon.ico"
+
+  },
+  {
+    "title": "fullStack development",
+    "company": "btrac Kannur",
+    "role":"internship",
+    "duration": "2024"
+    
+    
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Ecommerce Website",
+    "imageSrc": "/image/projectimg.jpeg",
+    "description": "This is a fully responsive e-commerce frontend website built using React. The project focuses on creating a smooth and modern shopping experience with reusable components and clean UI design.",
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Redux", "Bootstrap"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Portfolio Website",
+    "imageSrc": "/image/projectimg.jpeg",
+    "description": "This portfolio website showcases my frontend development skills, project experience, and design ability. It is built with a focus on performance, responsiveness, and clean UI structure.",
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Redux", "Bootstrap"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

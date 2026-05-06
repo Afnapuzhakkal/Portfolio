@@ -1,0 +1,26 @@
+.projects {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: aliceblue;
+  font-size: 26px;
+}
+
+/* 2 CARDS IN ONE ROW */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+}

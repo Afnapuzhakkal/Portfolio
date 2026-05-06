@@ -1,0 +1,68 @@
+/* CARD */
+.project-card {
+  background: #111;
+  color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+}
+
+/* IMAGE */
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* TITLE */
+.project-title {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+/* DESCRIPTION */
+.project-description {
+  font-size: 14px;
+  opacity: 0.8;
+  margin: 10px 0;
+}
+
+/* SKILLS */
+.project-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+}
+
+.project-skills li {
+  background: #222;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+/* LINKS */
+.project-links {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: #00bcd4;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.project-links a:hover {
+  color: #fff;
+}

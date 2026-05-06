@@ -1,0 +1,78 @@
+/* CONTACT SECTION */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+color: aliceblue;
+  padding: 80px 20px;
+  text-align: center;
+
+  background: transparent;
+}
+
+/* TITLE */
+.contact h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/* SUBTEXT */
+.contact p {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+/* LINKS */
+.contact-links {
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* EACH LINK */
+.contact-links a {
+  text-decoration: none;
+  color: inherit;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 16px;
+  padding: 6px 10px;
+  border-radius: 6px;
+
+  transition: all 0.3s ease;
+}
+
+/* ICON */
+.contact-links i {
+  font-size: 18px;
+}
+
+/* HOVER EFFECT */
+.contact-links a:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* COPYRIGHT */
+.contact .copyright {
+  margin-top: 30px;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+/* 🔥 DESKTOP LAYOUT (row like modern portfolio) */
+@media (min-width: 768px) {
+  .contact-links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+}

@@ -1,0 +1,86 @@
+/* ===== NAVBAR CONTAINER ===== */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 8%;
+  background-color: #0f172a; /* dark navy */
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* ===== LOGO / TITLE ===== */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+}
+
+/* ===== MENU WRAPPER ===== */
+.menu {
+  position: relative;
+}
+
+/* ===== MENU ICON (HAMBURGER) ===== */
+.menuBtn {
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+/* ===== MENU LIST ===== */
+.menu-items {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+/* ===== MENU LINKS ===== */
+.menu-items li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.menu-items li a:hover {
+  color: #38bdf8; /* light blue */
+}
+
+/* ===== MOBILE VIEW ===== */
+@media (max-width: 768px) {
+
+  /* Show menu button */
+  .menuBtn {
+    display: block;
+  }
+
+  /* Hide menu by default */
+  .menu-items {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #0f172a;
+    width: 200px;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    display: none;
+    border-radius: 8px;
+  }
+
+  /* Show when open */
+  .menu-items.open {
+    display: flex;
+  }
+
+  .menu-items li {
+    text-align: center;
+  }
+}
