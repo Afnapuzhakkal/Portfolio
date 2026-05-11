@@ -1,5 +1,5 @@
 import React from "react";
-import "./projectCard.css";
+import "./ProjectCard.css";
 
 function ProjectCard({ title, imageSrc, description, skills = [], demo, source }) {
   return (
