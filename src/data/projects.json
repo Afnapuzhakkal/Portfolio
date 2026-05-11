@@ -5,7 +5,7 @@
     "description": "This is a fully responsive e-commerce frontend website built using React. The project focuses on creating a smooth and modern shopping experience with reusable components and clean UI design.",
     "skills": ["HTML", "CSS", "JavaScript", "React", "Redux", "Bootstrap"],
     "demo": "https://ecommerce-mini-project2.netlify.app/",
-  "source": "https://github.com/Afnapuzhakkal/ecommerce-mini-project"
+    "source": "https://github.com/Afnapuzhakkal/ecommerce-mini-project"
   },
   {
     "title": "Portfolio Website",
@@ -13,6 +13,6 @@
     "description": "This portfolio website showcases my frontend development skills, project experience, and design ability. It is built with a focus on performance, responsiveness, and clean UI structure.",
     "skills": ["HTML", "CSS", "JavaScript", "React", "Redux", "Bootstrap"],
     "demo": "https://afnapuzhakkal-portfolio.netlify.app/",
-     "source": "https://github.com/Afnapuzhakkal"
+    "source": "https://github.com/Afnapuzhakkal"
   }
 ]
